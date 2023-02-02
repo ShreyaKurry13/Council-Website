@@ -36,7 +36,7 @@ ul a{
     text-transform: uppercase;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 20px;
 }
 ul li{
     list-style: none;
@@ -65,4 +65,47 @@ ul a:hover{
 }
 #event{
     color: aqua;
+}
+.grid{
+    display: flex;
+    width: 20px;
+    grid-template-columns:min-content;
+    color: white;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+}
+#image1{
+    height: 80vh;
+    width: 20vw;
+    padding: 60px;
+}
+#image2{
+    height: 80vh;
+    width: 20vw;
+    padding: 60px;
+}
+#image3{
+    height: 80vh;
+    width: 20vw;
+    padding: 60px;
+}
+#image4{
+    height: 80vh;
+    width: 20vw;
+    padding: 60px;
+}
+#image5{
+    height: 80vh;
+    width: 20vw;
+    padding: 60px;
+}
+#image6{
+    height: 80vh;
+    width: 20vw;
+    padding: 60px;
+}
+#image7{
+    height: 80vh;
+    width: 20vw;
+    padding: 60px;
 }

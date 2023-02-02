@@ -36,12 +36,12 @@ ul a{
     text-transform: uppercase;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 20px;
 }
 ul li{
     list-style: none;
 }
-ul a:hover{
+a:active ,a:hover{
     color: aqua;
 }
 #home{
@@ -54,7 +54,7 @@ ul a:hover{
     text-decoration: none;
     font-weight: 700;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 18px;
+    font-size: 20px;
     padding-left: 10px;
     text-decoration: none;
     border-radius: 10px;
@@ -65,4 +65,22 @@ ul a:hover{
 #btn-register #reg:hover{
     color: aqua;
     cursor: pointer;
+}
+.bars{
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    margin: 20px 25px 15px 0px;
+    display: none;
+}
+#check{
+    display: none;
+}
+@media screen and (max-width:900px) {
+    ul a{
+        font-size: 12px;
+    }
+    #reg{
+        font-size: 12px;
+    }
 }
