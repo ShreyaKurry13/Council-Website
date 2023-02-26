@@ -4,18 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fusion X Trikon</title>
+    <link rel="icon" href="/images/fusion.png" type="image/icon type" style="height: 30px; width: 20px;">
     <link rel="stylesheet" type="text/css" href="/homestyle.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <!-- <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 <body>
+    <!-- <video autoplay loop muted plays-inline class="back-video">
+        <source src="/images/fashion.jpg" type="video/mp4">
+    </video> -->
     <header>
+        
+
         <nav>
             
             <label class="logo"></label>
             <ul>
+                <img src="/images/fusion.png" alt="">
                 <a class="active" href="home.html" id="home"><li>Home</li></a>
                 <a href="/events.html"><li>Events</li></a>
                 <a href="/contact.html"><li>Contact Us</li ></a>
@@ -31,6 +39,114 @@
             </label>
             </ul>
         </nav>
-    </header>
+        <div class="banner">
+              <img src="images/logo2.gif" alt="" class="video">
+        </div>
+        
+</header>
+
+
+    <div class="timer">
+        <h1 style="color: blueviolet; text-align: center;font-size: 50px; padding-top: 20px;">YOUR WAIT FOR FUSION</h1>
+    <div class="launch-time">
+        
+        <div>
+            <p id="days">00</p>
+            <span>Days</span>
+        </div>
+        <div>
+            <p id="hours">00</p>
+            <span>Hours</span>
+        </div>
+        <div>
+            <p id="minutes">00</p>
+            <span>Mintues</span>
+        </div>
+        <div>
+            <p id="seconds">00</p>
+            <span>Seconds</span>
+        </div>
+    </div>
+
+    </div>
+    
+    <div class="latest">
+        <h2>Latest Work ⭢</h2>
+    </div>
+
+
+
+    <footer>
+        <div class="foot">
+          <div class="contain">
+            <div class="row">
+                 <div class="out">
+                <h4>Get in touch</h4>
+                <ul>
+                    <li><a href="/contact.html">Contact Us</a></li>
+                    <li><a href="/about.html">About Us</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </div>
+            <div class="out">
+                <h4>Community</h4>
+                <ul>
+                    <li><a href="/events.html">Events</a></li>
+                    <li><a href="#">Core Team</a></li>
+                    <li><a href="#">Latest Work</a></li>
+                </ul>
+            </div>
+            <div class="out">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="#">Register</a></li>
+                    <li><a href="#">Countdown</a></li>
+                    <li><a href="#">Map</a></li>
+                </ul>
+            </div>
+            <div class="out">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            </div>
+          </div>
+        </div>
+
+       
+        <div class="low">
+            <p>──────────────────────────────────────────────────────────────────────────────────────────────────────</p>
+            &copy; Fusion X Trikon 2023 • All Rights Reserved • VPPCOE
+            
+        </div>
+    </footer>
+
+
+
+
+    <script>
+        var countDownDate = new  Date("March 8,2023 09:00:00").getTime();
+        var x = setInterval(function(){
+             var now = new Date().getTime();
+             var distance = countDownDate - now;
+
+             var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            document.getElementById("days").innerHTML = days;
+            document.getElementById("hours").innerHTML = hours;
+            document.getElementById("minutes").innerHTML = minutes;
+            document.getElementById("seconds").innerHTML = seconds;
+
+        },1000);
+
+
+
+    </script>
 </body>
 </html>

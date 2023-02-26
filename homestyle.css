@@ -8,7 +8,7 @@ body{
 nav{
     position: fixed;
     width: 100vw;
-    height: 75px;
+    height: 80px;
     border-top: .5rem solid;
     display: flex;
     justify-content: space-between;
@@ -17,6 +17,7 @@ nav{
     background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7));
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
+
 header .brand{
     font-size: 1.5rem;
     color: white;
@@ -24,21 +25,26 @@ header .brand{
     text-decoration: none;
     margin-right: 42%;
 }
-ul{
+nav ul{
     display: flex;
     align-items: center;
     height: 60px;
 }
-ul a{
+nav ul a{
     text-decoration: none;
     color: white;
     margin: 0 2rem;
     text-transform: uppercase;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 21px;
 }
-ul li{
+nav ul img{
+    height: 55px;
+    padding-right: 650px;
+    cursor: pointer;
+}
+nav ul li{
     list-style: none;
 }
 a:active ,a:hover{
@@ -83,4 +89,133 @@ a:active ,a:hover{
     #reg{
         font-size: 12px;
     }
+}
+/* .back-video{
+    position: absolute;
+    background-size: cover;
+    z-index: -1;
+}*/
+.banner{
+    height: 770px;
+}
+.video{
+   position: absolute;
+   height: 770px;
+   width: 100%;
+   background-attachment: fixed;
+}
+.timer{
+    background-color: white;
+    height: 230px;
+}
+.launch-time{
+    color: black;
+    display: flex;
+    /* text-align: center; */
+    margin-left: 670px;
+    margin-top: 20px;
+}
+.launch-time div{
+    flex-basis: 100px;
+}
+.launch-time div p{
+    font-size: 70px;
+    margin-bottom: -10px;
+}
+.launch-time div span{
+    font-size: 20px;
+    /* margin-bottom: -10px; */
+}
+.latest{
+    color: white;
+    font-size: 20px;
+    padding: 45px;
+}
+
+
+
+
+footer{
+    background-color: rgba(128, 128, 128, 0.055);
+    color: white;
+    font-size: 22px;
+    /* text-align: center; */
+    /* margin-top: 45px; */
+    height: 150px;
+    padding: 40px 10px;
+}
+.low{
+    text-align: center;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+.low p{
+    color: black;
+    margin-top: -3px;
+}
+.contain{
+    /* max-width: 1170px; */
+	/* margin:auto; */
+    padding-left: 40px;
+    /* padding-right: 30px; */
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+    padding-left: 80px;
+}
+.out ul{
+    list-style: none;  
+}
+.out{
+    width: 20%;
+    padding: 0 25px;
+}
+.out h4{
+	font-size: 20px;
+	color: #ffffff;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+    margin-top: -10px;
+	font-weight: 500;
+	position: relative;
+}
+.out h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.out .footer-col ul li:not(:last-child){
+	margin-bottom: 30px;
+}
+.out ul li a{
+	font-size: 18px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.out ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px; 
+}
+.out .social-links a{
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 50px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
 }

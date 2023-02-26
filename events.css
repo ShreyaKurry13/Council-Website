@@ -67,12 +67,13 @@ ul a:hover{
     color: aqua;
 }
 .grid{
-    display: flex;
-    width: 20px;
-    grid-template-columns:min-content;
+    display: grid;
     color: white;
-    grid-template-columns: auto auto auto;
-    grid-gap: 10px;
+    height: 90vh;
+    width: 20vw;
+    grid-template-columns: auto auto auto auto;
+    /* padding-left: 0%;
+    padding-right: 0% */
 }
 #image1{
     height: 80vh;
@@ -83,16 +84,22 @@ ul a:hover{
     height: 80vh;
     width: 20vw;
     padding: 60px;
+    padding-left: 0%;
+    padding-right: 0%;
 }
 #image3{
     height: 80vh;
     width: 20vw;
     padding: 60px;
+    padding-left: 0%;
+    padding-right: 0%;
 }
 #image4{
     height: 80vh;
     width: 20vw;
     padding: 60px;
+    padding-left: 0%;
+    padding-right: 0%;
 }
 #image5{
     height: 80vh;
@@ -103,9 +110,20 @@ ul a:hover{
     height: 80vh;
     width: 20vw;
     padding: 60px;
+    padding-left: 0%;
+    padding-right: 0%;
 }
 #image7{
     height: 80vh;
     width: 20vw;
     padding: 60px;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+#image8{
+    height: 80vh;
+    width: 20vw;
+    padding: 60px;
+    padding-left: 0%;
+    padding-right: 0%;
 }
